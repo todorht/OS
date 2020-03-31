@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.concurrent.Semaphore;
 
+
+
 public class CountSeven {
 
     public static int NUM_RUNS = 100;
@@ -29,13 +31,10 @@ public class CountSeven {
                     semaphore.acquire();
                         count++;
                     semaphore.release();
-
-
                 }
             }
-
-
         }
+
         private int[] data;
 
         public Counter(int[] data) {

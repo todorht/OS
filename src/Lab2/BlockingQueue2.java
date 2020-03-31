@@ -1,18 +1,17 @@
 package Lab2;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class BlockingQueue1 {
+public class BlockingQueue2 {
 
     public static class BlockingQueue<T> {
         T[] contents;
         int capacity;
-        List<T> list = new ArrayList<>();
+        int rear = 0;
+        int front = 0;
 
         private Lock lock = new ReentrantLock();
 
@@ -23,21 +22,22 @@ public class BlockingQueue1 {
 
         public void enqueue(T item) {
             lock.lock();
-            if(list.size()<capacity){
-                list.add(item);
-            }
+            if(capacity==contents.length) contents[rear++]=item;
+            if(rear==contents.length)capacity++;
+
             lock.unlock();
         }
 
         public T dequeue() {
-
-            T item = null;
-            lock.lock();
-            if(list.size()>0){
-                item = list.remove(list.size()-1);
+            if (capacity > 0) {
+                lock.lock();
+                contents[front++] = null;
+                if(front==contents.length) front=0;
+                capacity--;
+                lock.unlock();
             }
-            lock.unlock();
-            return item;
+
+            return (T) contents;
         }
     }
 
@@ -105,5 +105,4 @@ public class BlockingQueue1 {
 
     }
 }
-
 
