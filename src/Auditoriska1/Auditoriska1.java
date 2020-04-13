@@ -3,6 +3,7 @@ package Auditoriska1;
 import java.io.*;
 
 public class Auditoriska1 {
+
     public static String readFromFileText(File f) throws IOException { //cita od file
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(f),"UTF-8"));
         String line = null;
@@ -26,6 +27,7 @@ public class Auditoriska1 {
             System.out.println(s);
         }
     }
+
     public static void writeInFile(File f, String s, boolean append) throws IOException { //dadem String "s" go zapisuva vo file
         BufferedWriter br = new BufferedWriter(new FileWriter(f, append));
         br.write(s + "\n");

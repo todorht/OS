@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="013613bf-95d5-42eb-99a2-4e4d7999ab6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/BlockingQueue1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/BlockingQueue1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/CountSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/CountSeven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Multithreading/Auditoriska1/Auditoriska1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Multithreading/Auditoriska1/Auditoriska1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Multithreading/Auditoriska3/ExampleThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Multithreading/Auditoriska3/IntegerWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Multithreading/Auditoriska3/Vezba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Multithreading/Lab2/TwoThreads$ThreadAB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Multithreading/Lab2/TwoThreads$ThreadAB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Multithreading/Lab2/TwoThreads.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Multithreading/Lab2/TwoThreads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auditoriska1/Auditoriska1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auditoriska1/Auditoriska1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Zo8sn8knR1JmkwJKiyGJwiRH8O" />
   <component name="ProjectLevelVcsManager">
@@ -39,6 +45,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FINKI\Leten\OS\AuditoriskiVezbi\Multithreading\src\Auditoriska1" />
+      <recent name="E:\FINKI\Leten\OS\AuditoriskiVezbi\Multithreading\src\Auditoriska2" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Auditoriska2" />
       <recent name="Lab2" />
@@ -46,18 +56,14 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\FINKI\Leten\OS\AuditoriskiVezbi\Multithreading\src\Auditoriska1" />
-      <recent name="E:\FINKI\Leten\OS\AuditoriskiVezbi\Multithreading\src\Auditoriska2" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.TwoThreads">
-    <configuration name="BlockingQueue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2.BlockingQueue1" />
+  <component name="RunManager" selected="Application.BarberShop">
+    <configuration name="BarberShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.BarberShop" />
       <module name="Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2.*" />
+          <option name="PATTERN" value="Lab3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2.CountSeven" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Demo" />
       <module name="Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2.*" />
+          <option name="PATTERN" value="Lab3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2.Sum1" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Main" />
       <module name="Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2.*" />
+          <option name="PATTERN" value="Lab3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,19 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2.TwoThreads" />
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Singleton" />
       <module name="Multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vezba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Auditoriska2.Vezba" />
+    <configuration name="TancSoStudentite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.TancSoStudentite" />
       <module name="Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Auditoriska2.*" />
+          <option name="PATTERN" value="Lab3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoThreads" />
-        <item itemvalue="Application.BlockingQueue1" />
-        <item itemvalue="Application.Sum1" />
-        <item itemvalue="Application.CountSeven" />
-        <item itemvalue="Application.Vezba" />
+        <item itemvalue="Application.BarberShop" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Singleton" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TancSoStudentite" />
       </list>
     </recent_temporary>
   </component>
@@ -135,10 +147,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1585681513527">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586692599260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585681513527" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586692599260" />
     <state x="499" y="192" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585506641734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -160,64 +172,77 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="417" y="7" key="CommitChangelistDialog2/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585671271263" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585506594059">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586450933639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585493915694" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586450933639" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585506594059" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1585682312217">
+    <state width="1492" height="273" key="GridCell.Tab.0.bottom" timestamp="1586710926815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585682312217" />
-    <state width="645" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585597848975" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1585682312217">
+    <state width="1322" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824/-1366.303.1366.728@-1366.303.1366.728" timestamp="1586457264916" />
+    <state width="1492" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586710926815" />
+    <state width="1492" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586623585421" />
+    <state width="1492" height="273" key="GridCell.Tab.0.center" timestamp="1586710926815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585682312217" />
-    <state width="645" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585597848975" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1585682312217">
+    <state width="1322" height="252" key="GridCell.Tab.0.center/0.0.1536.824/-1366.303.1366.728@-1366.303.1366.728" timestamp="1586457264916" />
+    <state width="1492" height="273" key="GridCell.Tab.0.center/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586710926815" />
+    <state width="1492" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586623585421" />
+    <state width="1492" height="273" key="GridCell.Tab.0.left" timestamp="1586710926815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585682312217" />
-    <state width="645" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585597848975" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1585682312217">
+    <state width="1322" height="252" key="GridCell.Tab.0.left/0.0.1536.824/-1366.303.1366.728@-1366.303.1366.728" timestamp="1586457264916" />
+    <state width="1492" height="273" key="GridCell.Tab.0.left/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586710926815" />
+    <state width="1492" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586623585421" />
+    <state width="1492" height="273" key="GridCell.Tab.0.right" timestamp="1586710926815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585682312217" />
-    <state width="645" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585597848975" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585682312217">
+    <state width="1322" height="252" key="GridCell.Tab.0.right/0.0.1536.824/-1366.303.1366.728@-1366.303.1366.728" timestamp="1586457264916" />
+    <state width="1492" height="273" key="GridCell.Tab.0.right/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586710926815" />
+    <state width="1492" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586623585421" />
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom" timestamp="1586710926810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585682312217" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585682312217">
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586710926810" />
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586623585421" />
+    <state width="1492" height="261" key="GridCell.Tab.1.center" timestamp="1586710926810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585682312217" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585682312217">
+    <state width="1492" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586710926810" />
+    <state width="1492" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586623585421" />
+    <state width="1492" height="261" key="GridCell.Tab.1.left" timestamp="1586710926810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585682312217" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585682312217">
+    <state width="1492" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586710926810" />
+    <state width="1492" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586623585421" />
+    <state width="1492" height="261" key="GridCell.Tab.1.right" timestamp="1586710926810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585682312217" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1585496363093">
+    <state width="1492" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586710926810" />
+    <state width="1492" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586623585421" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1586614395880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585496363093" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585670082716">
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586614395880" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586612719754" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586693765392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585670082716" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585506866220" />
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585671285089">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586693765392" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586512861101" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586435457317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585671285089" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586435457317" />
     <state x="345" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585673916994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="345" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585673916994" />
+    <state x="209" y="33" key="new project wizard" timestamp="1586450934596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586450934596" />
     <state x="475" y="31" key="refactoring.ChangeSignatureDialog" timestamp="1585494878202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,9 +251,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585593108462" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585654846020">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586691962339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1585654846020" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1366.303.1366.728@0.0.1536.824" timestamp="1586691962339" />
   </component>
 </project>
