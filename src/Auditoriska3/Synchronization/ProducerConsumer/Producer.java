@@ -4,7 +4,7 @@ package Auditoriska3.Synchronization.ProducerConsumer;
 
 import java.util.concurrent.Semaphore;
 
-import static Auditoriska3.Synchronization.ProducerConsumer.ProdConsTester.NUM_RUNS;
+import static Auditoriska3.Synchronization.ProducerConsumer.ProdConsTester.*;
 
 public class Producer extends Thread {
 
@@ -26,15 +26,12 @@ public class Producer extends Thread {
     }
 
     public void execute() throws InterruptedException {
-        Locks.bufferEmpty.acquire();
-
-        Locks.bufferLock.acquire();
+        empBuffer.acquire();
+        prodBuffer.acquire();
         myState.fillBuffer();
-
-        for (Semaphore s: Locks.items){
+        prodBuffer.release();
+        for (Semaphore s:consumerSem){
             s.release();
         }
-        Locks.bufferLock.release();
-
     }
 }

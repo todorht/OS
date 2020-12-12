@@ -9,6 +9,7 @@ public class Auditoriska1 {
         String line = null;
 
         StringBuilder sb = new StringBuilder();
+        sb.end
 
         while ((line = br.readLine())!= null){
             sb.append(line).append("\n");
@@ -29,7 +30,8 @@ public class Auditoriska1 {
     }
 
     public static void writeInFile(File f, String s, boolean append) throws IOException { //dadem String "s" go zapisuva vo file
-        BufferedWriter br = new BufferedWriter(new FileWriter(f, append));
+        BufferedWriter br = new BufferedWriter(new FileOut(f, append));
+        br.write
         br.write(s + "\n");
         br.close();
     }
@@ -46,6 +48,7 @@ public class Auditoriska1 {
 
         br.close();
         bw.close();
+
 
     }
 

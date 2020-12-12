@@ -6,6 +6,10 @@ import java.util.concurrent.Semaphore;
 
 public class ProdConsTester  {
 
+    public static Semaphore prodBuffer;
+    public static Semaphore consumerSem[];
+    public static Semaphore empBuffer;
+
     public static final int NUM_RUNS = 30;
 
 
@@ -22,7 +26,7 @@ public class ProdConsTester  {
         }
 
         Producer producer = new Producer(myState);
-        threads.add(producer);
+        producer.start();
 
         for(Thread t: threads){
             t.start();
@@ -36,13 +40,12 @@ public class ProdConsTester  {
     }
 
     public static void init(int numCons){
-        Locks.bufferLock = new Semaphore(1);
-        Locks.bufferEmpty = new Semaphore(1); // za Producer-ot
-        Locks.items = new Semaphore[numCons];  //za sekoj item za Consumer-ot
-        for (int i = 0; i < numCons; i++){
-            Locks.items[i] = new Semaphore(0);
+        prodBuffer = new Semaphore(1);
+        empBuffer = new Semaphore(1);
+        consumerSem = new Semaphore[numCons];
+        for(int i = 0; i <numCons;i++){
+            consumerSem[i] = new Semaphore(0);
         }
-
     }
 
 }

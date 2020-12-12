@@ -37,8 +37,8 @@ public class TancSoStudentite {
             show.presobleci();
             mUcesnici.release();
             // samo maskoto go povikuva metodot tancuvaj
-            showVlez.acquire();
             partnerka.acquire();
+            showVlez.acquire();
             show.tancuvaj();
             showVlez.release();
         }

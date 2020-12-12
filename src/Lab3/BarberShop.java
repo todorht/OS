@@ -93,7 +93,7 @@ class Barber extends Thread{
     @Override
     public void run() {
         try {
-            BarberShop.cw.acquire();
+           BarberShop.cw.acquire();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

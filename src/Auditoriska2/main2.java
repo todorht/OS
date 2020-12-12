@@ -5,6 +5,7 @@ public class main2 {
         Runnable obj = new T2();
         Thread tobj = new Thread((obj));
         tobj.start();
+        thr
     }
 
 }

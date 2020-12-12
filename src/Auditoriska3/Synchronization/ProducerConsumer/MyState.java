@@ -1,6 +1,8 @@
 package Auditoriska3.Synchronization.ProducerConsumer;
 
 public class MyState {
+
+
     int items;
     int numOfConsumers;
 
@@ -32,7 +34,7 @@ public class MyState {
             System.err.println("GRESHKA");
             throw new RuntimeException("GRESHKA");
         }
-        System.out.println("Decrement");
+        System.out.println("Decrement: " + items);
     }
 
     public void getItemById(int id){
